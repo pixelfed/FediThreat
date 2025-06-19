@@ -28,8 +28,8 @@ class ApiController extends Controller
             $res['contactEmail'] = config('fedithreat.admin_email');
         }
 
-        if(config('fedithreat.fedi_acct')) {
-            $res['fediverseAccount'] = config('fedithreat.fedi_acct');
+        if(config('fedithreat.fediverse_acct')) {
+            $res['fediverseAccount'] = config('fedithreat.fediverse_acct');
         }
 
         return response()->json($res);
