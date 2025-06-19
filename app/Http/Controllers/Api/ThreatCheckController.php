@@ -57,11 +57,11 @@ class ThreatCheckController extends Controller
 
             $response = [
                 'type' => $type,
-                'score' => $assessment->score,
-                'risk_level' => $assessment->risk_level,
-                'recommendations' => $assessment->recommendations,
+                //'score' => $assessment->score,
+                //'risk_level' => $assessment->risk_level,
+                //'recommendations' => $assessment->recommendations,
                 'provider_results' => $this->filterProviderResults($assessment->provider_results),
-                'instance_reports' => $this->formatInstanceReports($assessment->instance_reports),
+                //'instance_reports' => $this->formatInstanceReports($assessment->instance_reports),
                 'checked_at' => now()->toIso8601String(),
             ];
 
