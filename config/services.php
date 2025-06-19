@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'spamhaus' => [
+        'username' => env('SPAMHAUS_USERNAME'),
+        'password' => env('SPAMHAUS_PASSWORD'),
+    ],
 ];
