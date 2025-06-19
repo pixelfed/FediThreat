@@ -10,11 +10,11 @@ class InstanceActivity extends Model
     protected $fillable = [
         'instance_id',
         'action',
-        'details'
+        'details',
     ];
 
     protected $casts = [
-        'details' => 'array'
+        'details' => 'array',
     ];
 
     public function instance(): BelongsTo
