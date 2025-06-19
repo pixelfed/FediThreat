@@ -25,12 +25,13 @@
             color: #555;
             margin-top: 0.5rem;
             margin-bottom: 5px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>fedi<span style="color: red;">threat</span></h1>
-    <p>Fediverse threat monitoring service.</p>
-    <p>Launching July 2025</p>
+    <p>Content moderation API for Pixelfed.<br />Detect and prevent abuse, spam, and threats in real-time.</p>
+    <p style="color: #aaa;">Launching July 2025</p>
 </body>
 </html>
