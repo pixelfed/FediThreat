@@ -11,7 +11,7 @@
                     Open source content moderation API for the Fediverse.<br />
                     Detect and prevent abuse, spam, and threats in real-time.
                 </p>
-                <p class="text-lg text-gray-400 font-medium">Launching July 2025</p>
+                <p class="text-lg text-gray-400 font-medium">Launching September 2025</p>
             </div>
 
             <div class="bg-white/60 backdrop-blur-sm rounded-2xl shadow-xl border border-gray-200 p-8 sm:p-12 mb-12">
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            @if(now()->gt(now()->parse('2025-06-24')))
+            @if(now()->gt(now()->parse('2025-08-31')))
             <div class="bg-gray-900 rounded-2xl shadow-xl p-8 sm:p-12 text-left">
                 <h2 class="text-2xl sm:text-3xl font-semibold text-white mb-6 text-center">
                     Get Started with Your Pixelfed Server
