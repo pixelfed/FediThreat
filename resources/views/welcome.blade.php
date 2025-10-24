@@ -11,7 +11,7 @@
                     Open source content moderation API for the Fediverse.<br />
                     Detect and prevent abuse, spam, and threats in real-time.
                 </p>
-                <p class="text-lg text-gray-400 font-medium">Launching September 2025</p>
+                <p class="text-lg text-gray-400 font-medium">Launching Soon</p>
             </div>
 
             <div class="bg-white/60 backdrop-blur-sm rounded-2xl shadow-xl border border-gray-200 p-8 sm:p-12 mb-12">
