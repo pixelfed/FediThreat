@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            @if(now()->gt(now()->parse('2025-08-31')))
+            @if(now()->gt(now()->parse('2025-12-01')))
             <div class="bg-gray-900 rounded-2xl shadow-xl p-8 sm:p-12 text-left">
                 <h2 class="text-2xl sm:text-3xl font-semibold text-white mb-6 text-center">
                     Get Started with Your Pixelfed Server
